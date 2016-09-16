@@ -1,17 +1,17 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS.
-venue: "North-West University"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "NWU Genomics Data Carpentry"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Room G18, Building G23, Potchefstroom Campus, NWU, Gerrit Dekker Street, Potchefstroom"      # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
 country: "za"      # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "-26.685508, 27.094909"       # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
 humandate: "Sep 26 - 29, 2016"    # human-readable date (e.g., "Feb 17-18, 2020")
-humantime: "8:00 am - 13:00 pm"    # human-readable time (e.g., "9:00 am - 4:30 pm")
+humantime: "8:00 am - 15:00 pm"    # human-readable time (e.g., "9:00 am - 4:30 pm")
 startdate: 2016-09-26       # use YYYY-MM-DD format like 2015-01-01
 enddate: 2016-09-29        # use YYYY-MM-DD format like 2015-01-02
 instructor: ["Bianca Peterson", "Maryke Schoonen", "Jason Williams"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Anelda van der Walt", "Martin Dreyer"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Martin Dreyer","Anelda van der Walt", "Bertie Seyffert"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: "eresearch@nwu.ac.za"      # contact email address for workshop organizer, such as "grace@hopper.org"
 etherpad: http://pad.software-carpentry.org/2016-09-26-nwu-genomics        # optional (insert the URL for your Etherpad if you're using one)
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
@@ -78,7 +78,7 @@ Participants should bring their laptops and plan to participate actively. By the
 -->
 <p>
   <strong>Who:</strong>
-  The course is aimed at postgraduate students and other researchers. Preference will be given to researchers and students from the North-West University.
+  The course is specifically aimed at postgraduate students and other researchers who already engage in research projects where Next Generation Sequencing data will be generated. Preference will be given to researchers and students from the North-West University.
 </p>
 
 <p>
@@ -90,6 +90,7 @@ Participants should bring their laptops and plan to participate actively. By the
   <strong>Registration:</strong>
   Please register by completing the <a href="http://goo.gl/forms/CYZ40K8EccjaEHcI3">registration form</a>.
 </p>
+
 
 <!--
   LOCATION
@@ -122,6 +123,10 @@ Participants should bring their laptops and plan to participate actively. By the
   <a href="#setup">below</a>). They are also required to abide by
   Data Carpentry's
   <a href="{{site.dc_site}}/code-of-conduct/">Code of Conduct</a>.
+</p>
+<p>
+  <strong>Installation Party:</strong>
+  Registered participants are invited to get support with installation of the required software on 20 September between 10:00 - 12:00 at Room 305, Building D1, Potchefstroom.  <strong>Please see details of installation instructions <a href="#setup">below</a></strong>.
 </p>
 
 <!--
@@ -166,32 +171,36 @@ Participants should bring their laptops and plan to participate actively. By the
 
     <h3>Day 1: Automating repetitive tasks</h3>
     <table class="table table-striped">
+      <tr> <td>08:00 - 8:30</td>  <td>Rise 'n Shine Coffee Time</td> </tr>
       <tr> <td>08:30 - 9:00</td>  <td>Welcome and Introductions</td> </tr>
-      <tr> <td>09:00 - 10:30</td>  <td>Introduction to Command Line (shell)</td></tr>
+      <tr> <td>09:00 - 10:30</td>  <td><a href="http://swcarpentry.github.io/shell-novice/">Introduction to Command Line (shell)</a></td></tr>
       <tr> <td>10:30 - 11:00</td> <td>Coffee</td> </tr>
-      <tr> <td>11:00 - 13:00</td>  <td>Shell (continue)</td> </tr>
+      <tr> <td>11:00 - 13:00</td>  <td><a href="http://swcarpentry.github.io/shell-novice/">Shell</a> (continue)</td> </tr>
       <tr> <td>13:00 - 14:00</td>  <td>Break</td> </tr>
-      <tr> <td>14:00 - 14:50</td>  <td>Shell (continue)</td> </tr>
+      <tr> <td>14:00 - 14:50</td>  <td><a href="http://swcarpentry.github.io/shell-novice/">Shell</a> (continue)</td> </tr>
       <tr> <td>14:50 - 15:00</td>  <td>Feedback and Wrap-up</td> </tr>
+      <tr> <td>15:00 - later</td>  <td>Networking opportunity at <a href="https://www.facebook.com/pages/Drakenstein-Restaurant-Die-Draak/439590826071452">Drakenstein Restaurant</a> </tr>
     </table>
  
  
     <h3>Day 2: Cloud Computing for Genomics</h3>
     <table class="table table-striped">
-      <tr> <td>08:30 - 9:00</td>  <td>Introduction to the Genomics Dataset</td> </tr>
-      <tr> <td>09:00 - 10:30</td>  <td>Cloud Computing for Genomics</td> </tr>
+      <tr> <td>08:00 - 8:30</td>  <td>Rise 'n Shine Coffee Time</td> </tr>
+      <tr> <td>08:30 - 9:00</td>  <td><a href="http://www.datacarpentry.org/introduction-genomics/">Introduction to the Genomics Dataset</a></a></td> </tr>
+      <tr> <td>09:00 - 10:30</td>  <td><a href="https://github.com/datacarpentry/cloud-genomics/tree/gh-pages/lessons">Cloud Computing for Genomics</a></td> </tr>
       <tr> <td>10:30 - 11:00</td>  <td>Coffee</td> </tr>
-      <tr> <td>11:00 - 13:00</td>  <td>Cloud Computing (continue)</td> </tr>
+      <tr> <td>11:00 - 13:00</td>  <td><a href="https://github.com/datacarpentry/cloud-genomics/tree/gh-pages/lessons">Cloud Computing</a> (continue)</td> </tr>
       <tr> <td>13:00 - 14:00</td>  <td>Break</td> </tr>
-      <tr> <td>14:00 - 15:20</td>  <td>Using Spreadsheets Effectively</td> </tr>
-      <tr> <td>15:20 - 15:30</td>  <td>Feedback and Wrap-up</td> </tr>
+      <tr> <td>14:00 - 14:50</td>  <td><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/">Using Spreadsheets Effectively</a> - Optional but highly recommended</td> </tr>
+      <tr> <td>14:50 - 15:00</td>  <td>Feedback and Wrap-up</td> </tr>
     </table>
     
     <h3>Day 3: Using Commandline for Data Wrangling and Intro to R</h3>
     <table class="table table-striped">
-      <tr> <td>08:30 - 10:30</td>  <td>Data Wrangling and Processing</td> </tr>
+      <tr> <td>08:00 - 8:30</td>  <td>Rise 'n Shine Coffee Time</td> </tr>
+      <tr> <td>08:30 - 10:30</td>  <td><a href="https://github.com/datacarpentry/wrangling-genomics/tree/gh-pages/lessons">Data Wrangling and Processing</a></td> </tr>
       <tr> <td>10:30 - 11:00</td>  <td>Coffee</td> </tr>
-      <tr> <td>11:00 - 12:50</td>  <td>Introduction to R</td> </tr>
+      <tr> <td>11:00 - 12:50</td>  <td><a href="http://www.datacarpentry.org/R-genomics/">Introduction to R</a></td> </tr>
       <tr> <td>12:50 - 13:00</td>  <td>Feedback and Wrap-up</td> </tr>
       <tr> <td>13:00 - 14:00</td>  <td>Break</td></tr>
       <tr> <td>14:00 - 15:00</td>  <td>Optional: Discussion of individual projects</td></tr>
@@ -200,9 +209,10 @@ Participants should bring their laptops and plan to participate actively. By the
  
     <h3>Day 4: Data Analysis & Visualisation in R</h3>
     <table class="table table-striped">
-      <tr> <td>08:30 - 10:30</td>  <td>Data Analysis in R</td> </tr>
+      <tr> <td>08:00 - 8:30</td>  <td>Rise 'n Shine Coffee Time</td> </tr>
+      <tr> <td>08:30 - 10:30</td>  <td><a href="http://www.datacarpentry.org/R-genomics/">Data Analysis in R</a></td> </tr>
       <tr> <td>10:30 - 11:00</td>  <td>Coffee</td> </tr>
-      <tr> <td>11:00 - 12:50</td>  <td>Visualisation in R</td> </tr>
+      <tr> <td>11:00 - 12:50</td>  <td><a href="http://www.datacarpentry.org/R-genomics/">Visualisation in R</a></td> </tr>
       <tr> <td>12:50 - 13:00</td>  <td>Feedback and Wrap-up</td> </tr>
       <tr> <td>13:00 - 14:00</td>  <td>Break</td> </tr>
       <tr> <td>14:00 - 15:00</td>  <td>Optional: Discussion of individual projects</td> </tr>
